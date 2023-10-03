@@ -16,8 +16,8 @@ class Pizza extends JFrame implements ActionListener {
         add(pi, BorderLayout.CENTER);
 
         price= new JLabel("Final Price: ");
-        top1= new JLabel("Topping 1");
-        top2= new JLabel("Topping 2");
+        top1= new JLabel("Topping-1");
+        top2= new JLabel("Topping-2");
         cheese= new JLabel("Cheese");
 
         sub=new JButton("Submit");
