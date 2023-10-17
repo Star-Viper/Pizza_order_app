@@ -36,10 +36,11 @@ class Pizza extends JFrame implements ActionListener {
         t2.add("Onion - 70");
 
         che=new Choice();
-        che.add("Cottage-200");
-        che.add("Parmesan-210");
-        che.add("Burrata-150");
-        che.add("Goat cheese- 250");
+        
+        che.add("Cottage:-200");
+        che.add("Parmesan:-210");
+        che.add("Burrata:-150");
+        che.add("Goat cheese:-250");
 
         pri= new JTextField(15);
 
@@ -75,7 +76,6 @@ class Pizza extends JFrame implements ActionListener {
             sum+=70;
         }
 
-
         if(top2.charAt(0)=='P')
             sum+=100;
         else if (top2.charAt(0)=='M')
@@ -105,7 +105,6 @@ class Pizza extends JFrame implements ActionListener {
             sum+=250;
         }
         pri.setText(String.valueOf(sum));
-
     }
 }
 public class PizzaTime
