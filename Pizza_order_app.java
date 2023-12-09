@@ -3,6 +3,7 @@ import java.awt.event.*;
 import java.awt.*;
 
 class Pizza extends JFrame implements ActionListener {
+    
     JPanel pi;
     JLabel top1, top2, cheese, price;
     Choice t1, t2, che;
